@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.img{
+    background: url(https://images.unsplash.com/photo-1536768139911-e290a59011e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 36vw;
+    color: white;
+    font-size: 17px;
+    position: relative;
+}
+.credit{
+    width: 36vw;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+a{
+    color: white;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+}
+
+.logo{
+ width: 100%;
+ color: white;
+ text-shadow: 4px 4px 15px #E6007E;
+ background-color: rgba(0, 0, 0, 0.7);
+ position: relative;
+ top: 40%;
+ font-size: 45px;
+ display: flex;
+ align-items: center;
+ font-weight: 600;
+}
+h1{
+    text-align: center;
+    color: #B9B9B9;
+    transition: all 0.4s;
+}
+h1:hover{
+    color: #E6007E;
+}
+.form{
+    height: 100vh;
+    width: 64vw;
+    background-color: #121212;
+    color: #B9B9B9;
+    overflow-y: hidden;
+}
+
+.para{
+    border: 2px solid #B9B9B9;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 5%;
+    font-size: 17px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px 5px;
+}
+legend{
+    margin: 10px 20px;
+    font-size: 20px;
+}
+form{
+    margin: 80px 0px;
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.input{
+    margin: 0px 20px;
+    font-size: 14px;
+    padding: 10px;
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: 2px solid rgb(22, 200, 22);
+}
+input{
+    background-color: black;
+    border: 0.7px solid #2759ff;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    padding: 0px 5px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    border: 2px solid #E6007E;
+    background-color: black;
+    color: #E6007E;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+button:hover{
+    background-color: #E6007E;
+    color: black;
+}
+
+.last_line{
+    margin-left: 25px;
+}
+
+.link{
+    color: #E6007E;
+}
+
+
+a.last{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1170px) {
+main{
+    flex-direction: column;
+}
+.img{
+    width: 100vw;
+}
+.form{
+    width: 100vw;
+    overflow-y: scroll;
+}
+.container{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+}
+}

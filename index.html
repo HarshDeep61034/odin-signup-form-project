@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova-Terra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="img">
+<img src="">
+            <div class="logo">
+                <img src="nova.png" height="100px" alt="nova logo">
+                NOVA
+            </div>
+            <p class="credit">Photo by <a href="https://unsplash.com/@sergio_rola" target="_blank" rel="noopener noreferrer">Sergio Rola</a> on <a href="https://unsplash.com">unsplash</a></p>
+        </div>
+        <div class="form">
+            <h1>Nova Terra</h1>
+            <p class="para">Welcome to Nova Terra, the futuristic city-building game. Sign up now to start creating and managing your own metropolis in a world beyond your wildest dreams. Simply provide your email address, choose a username and password, and you're ready to embark on a journey of urban development and exploration.
+            </p>
+            <form action="done.html" method="post">
+                <legend>Let's do this!</legend>
+                <div class="container">
+                    <div class="input"><label for="fName">First Name</label><br><input placeholder="John" id="fname" name="first_name" type="text" required></div>
+                    <div class="input"><label for="lName">Last Name</label><br><input placeholder="Wick" type="text" id="lname" name="last_name"></div>
+                    <div class="input"><label for="mail">Email</label><br><input placeholder="Wickyjohn69@gmail.com" type="email" id="mail" name="user_name" required></div>
+                    <div class="input"><label for="phno">Phone Number</label><br><input placeholder="7017123456" id="phno" name="phone_number" type="text" minlength="10" maxlength="10"></div>
+                    <div class="input"><label for="pswd">Password</label><br><input id="pswd" placeholder="**********" name="password" type="password" required></div>
+                    <div class="input"><label for="cpswd">Confirm Password</label><br><input placeholder="**********" id="cpswd" name="password" type="password" required>
+                        <div id="pswdauth"></div>
+                    </div>
+                </div>
+              <button type="button" id="submit">Create Account</button>
+              <p class="last_line">Already have an account? <a class="last" href="index.html"><span class="link">Log in</span></a></p>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
